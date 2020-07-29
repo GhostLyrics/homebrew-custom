@@ -1,4 +1,4 @@
-cask 'navicat-for-mysql@12.1.27' do
+cask 'navicat-for-mysql@12' do
   version '12.1.27'
   sha256 'ea969a9d837eaf4d79df3df736fdbd70a273ef29e50a58c27b804d940711c28f'
 

@@ -6,7 +6,7 @@ class AnsibleAT292 < Formula
   url "https://releases.ansible.com/ansible/ansible-2.9.2.tar.gz"
   sha256 "2f83f8ccc50640aa41a24f6e7757ac06b0ee6189fdcaacab68851771d3b42f3a"
   revision 1
-  head "https://github.com/ansible/ansible.git", :branch => "devel"
+  head "https://github.com/ansible/ansible.git", branch: "devel"
 
   bottle do
     cellar :any

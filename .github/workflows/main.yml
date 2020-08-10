@@ -17,7 +17,6 @@ jobs:
           mkdir -p "$HOMEBREW_TAP_DIR"
           rm -rf "$HOMEBREW_TAP_DIR"
           ln -s "$PWD" "$HOMEBREW_TAP_DIR"
-          brew doctor
           brew readall --aliases ghostlyrics/custom
           brew style ghostlyrics/custom
           brew audit --tap=ghostlyrics/custom

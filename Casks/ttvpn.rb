@@ -7,6 +7,7 @@ cask "ttvpn" do
   desc "TLS based, secure, punch-through VPN solution"
   homepage "https://www.timetac.com/"
 
+  container type: :naked
   binary "ttvpn-darwin-amd64",
          target: "ttvpn"
 

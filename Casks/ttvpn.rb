@@ -8,7 +8,7 @@ cask "ttvpn" do
   homepage "https://www.timetac.com/"
 
   container type: :naked
-  
+
   binary "ttvpn-darwin-amd64",
          target: "ttvpn"
 

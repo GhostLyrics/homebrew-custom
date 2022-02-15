@@ -10,10 +10,8 @@ Or `brew tap ghostlyrics/custom` and then `brew install <formula>`.
 
 # Reasons for custom formulae/casks
 
-- ansible < 2.9.3
-    - https://github.com/ansible/ansible/issues/67159
-    - https://github.com/ansible/ansible/issues/68224
-    - https://github.com/ansible-collections/community.general/issues/440
+- ansible < 5.0
+    - Ansible higher 5.0 requires Python 3.5 on the host executing it, excluding Debian Stretch
 
 - navicat-for-mysql < 13
     - https://github.com/Homebrew/brew/issues/8131
